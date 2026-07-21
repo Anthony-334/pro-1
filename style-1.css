@@ -1,0 +1,61 @@
+.hero-section{
+    height: 100vh;
+}
+.hero{
+    text-align: center;
+    padding-top: 200px;
+}
+#profile-img{
+    height: 400px;
+    border-radius: 50%;
+}
+.hero h1{
+    font-size: 70px;
+
+}
+.hero-text{
+    margin-top: 30px;
+}
+ p{
+    font-size: 20px;
+}
+.about{
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 0px;
+}
+.work{
+    margin-top: 200px;
+}
+.work img{
+    height: 200px;
+    width: 300px;
+}
+.show-case{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.group{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+@media (max-width: 1200px){
+    .group{
+        flex-direction: column;
+    }
+    .text{
+        width: 300px;
+    }
+}
+.footer{
+    margin-top: 250px;
+    background-color: azure;
+    height: 50vh;
+}
+.footer-text{
+    padding-top: 150px;
+    float: right;
+}
+
